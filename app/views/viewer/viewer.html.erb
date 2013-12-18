@@ -1,0 +1,27 @@
+
+<h1>Recent Recordings</h1>
+
+<table>
+<thead>
+<th>
+Time
+</th>
+<th>
+Session
+</th>
+<th>
+Parameters
+</th>
+</thead>
+<% for item in @recordings %>
+<tr>
+<td><%= item.updated_at.strftime("%m-%d-%Y %H:%M:%S")%></td>
+<td><%= item.session %></td>
+<td><%= item.parameters%></td>
+</tr>
+
+<% end %>
+</table>
+
+
+
