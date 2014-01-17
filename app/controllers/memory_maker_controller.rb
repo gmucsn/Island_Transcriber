@@ -1,0 +1,14 @@
+class MemoryMakerController < ApplicationController
+  def store_memory
+    @memory = Memory.new()
+    @memory.memory_key = params["memory_key"]
+    @memory.memory_val= params["memory_val"]
+    @memory.save
+  end
+
+  def retrieve_memory
+    @memory_key = params["memory_key"]
+    @memory = Memory.where(["memory_key = ?", @memory_key])
+  end
+
+end

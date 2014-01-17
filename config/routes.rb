@@ -9,8 +9,10 @@ IslandTranscriber::Application.routes.draw do
   match 'view_sessions' => 'viewer#view_sessions'  
   match 'view_session/:id' => 'viewer#view_session', :as => :session_viewer  
   
-  
-  
+  match 'store_memory' => 'memory_maker#store_memory'  
+  match 'retrieve_memory' => 'memory_maker#retrieve_memory'  
+
+    
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
