@@ -11,7 +11,7 @@ class MemoryMakerController < ApplicationController
 
   def retrieve_memory
     @memory_key = params[:memory_key]
-    @memory = Memory.where(["memory_key = ?", @memory_key])
+    @memory = Memory.find(:first, :conditions => ["memory_key = ?", @memory_key])
     render :text => @memory.memory_val
   end
 
