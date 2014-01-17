@@ -1,5 +1,6 @@
 class MemoryMakerController < ApplicationController
   def store_memory
+    raise params.to_s
     @memory = Memory.new()
     @memory.memory_key = params[:memory_key]
     @memory.memory_val= params[:memory_val]
