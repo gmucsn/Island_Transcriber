@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails Island_Transcriber: development" uuid="f3fda5f1-4d75-4e71-b233-07e2dc32ae76">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails Island_Transcriber: test" uuid="8ead4206-634a-4488-b6fa-48b731e3b969">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails Island_Transcriber: production" uuid="710e9171-2e3c-488c-bda7-c3a8121c8f12">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
