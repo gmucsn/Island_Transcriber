@@ -1,0 +1,21 @@
+<div class="row">
+  <h2>List of Experiments</h2>
+
+<table class="table table-striped table-hover">
+    <thead>
+    <tr>
+      <td>Experiment</td>
+      <td></td>
+    </tr>
+    </thead>
+    <tbody>
+    <% for experiment in @experiments %>
+    <tr>
+      <td><%= experiment %></td>
+      <td><%= link_to "View Sessions", :action => "list_experiment_sessions", :experiment => experiment %> </td>
+    </tr>
+    <% end %>
+    </tbody>
+</table>
+
+</div>

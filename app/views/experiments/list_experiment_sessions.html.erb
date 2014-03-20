@@ -1,0 +1,21 @@
+<div class="row">
+  <h2>List of Sessions</h2>
+
+<table class="table table-striped table-hover">
+    <thead>
+    <tr>
+      <td>Session</td>
+      <td></td>
+    </tr>
+    </thead>
+    <tbody>
+    <% for session in @sessions %>
+    <tr>
+      <td><%= session %></td>
+      <td><%= link_to "View session recordings", :action => "list_experiment_session_recordings", :experiment => @experiment, :session => session %></td>
+    </tr>
+    <% end %>
+    </tbody>
+</table>
+
+</div>

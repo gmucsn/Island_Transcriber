@@ -1,0 +1,25 @@
+<div class="row">
+  <h2>Most Recent Recordings</h2>
+
+<table class="table table-striped table-hover">
+    <thead>
+    <tr>
+      <td>Time</td>
+      <td>Experiment</td>
+      <td>Session</td>
+      <td>Recording</td>
+    </tr>
+    </thead>
+    <tbody>
+    <% for recording in @recordings %>
+    <tr>
+      <td><%= recording.updated_at %></td>
+      <td><%= recording.experiment %></td>
+      <td><%= recording.session %></td>
+      <td><%= recording.parameters %></td>
+    </tr>
+    <% end %>
+    </tbody>
+</table>
+
+</div>
