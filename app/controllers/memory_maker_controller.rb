@@ -1,0 +1,2 @@
+class MemoryMakerController < ApplicationController
+end
