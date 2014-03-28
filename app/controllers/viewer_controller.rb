@@ -1,4 +1,5 @@
 class ViewerController < ApplicationController
+  before_filter :authenticate_user!
   def index
     redirect_to :action => "view_most_recent"
   end

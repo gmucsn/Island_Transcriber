@@ -1,5 +1,6 @@
 <div class="row">
   <h2>Experiment: <%= @experiment %> - Session: <%= @session %></h2>
+  <h3><%= link_to "Download CSV", :action => "download_session_csv", :experiment => @experiment, :session => @session %></h3>
 
 <table class="table table-striped table-hover">
     <thead>

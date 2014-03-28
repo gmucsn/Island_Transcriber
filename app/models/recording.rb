@@ -26,4 +26,24 @@ class Recording < ActiveRecord::Base
 
   end
 
+  def self.experiment_session_recordings_csv(experiment, session)
+    data = nil
+    if experiment == "Unidentified"
+      data = self.where(["experiment is null and session = ?", session]).order("updated_at")
+    else
+      data = self.where(["experiment = ? and session = ?", experiment, session]).order("updated_at")
+    end
+
+    # now prepare the csv file
+    file_string = ""
+    header = "time,data\n"
+    file_string << header
+
+    data.each {|row|
+      line_string = row.updated_at.to_s + "," + row.parameters + "\n"
+      file_string << line_string
+    }
+    return file_string
+  end
+
 end
