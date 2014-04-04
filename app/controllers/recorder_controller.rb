@@ -1,5 +1,5 @@
 class RecorderController < ApplicationController
-  skip_before_filter :verify_authenticity_token
+  protect_from_forgery except: :record
   def record
     render_text = "Boo"
     if params[:secret_key] == "KbBkRJnR"
