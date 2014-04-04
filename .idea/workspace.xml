@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bddc3343-0fe6-48a7-b272-21ecbd55b8c2" name="Default" comment="updates to rails 4&#10;Basic viewer with experiment and session breakout working.&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/recorder_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/recorder_controller.rb" />
     </list>
-    <list id="16e93f59-0a8d-455d-b90d-9f8903672403" name="New changelist" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list id="16e93f59-0a8d-455d-b90d-9f8903672403" name="New changelist" comment="" />
     <ignored path="Island_Transcriber.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="6" selection-start="331" selection-end="331" vertical-scroll-proportion="0.31322506" vertical-offset="0" max-vertical-offset="1080">
+            <state line="9" column="6" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recorder_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/recorder_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="47" selection-start="96" selection-end="96" vertical-scroll-proportion="0.034802783" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -66,7 +72,6 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_navigation_links.html.erb" />
         <option value="$PROJECT_DIR$/app/views/experiments/list_experiments.html.erb" />
         <option value="$PROJECT_DIR$/app/views/experiments/list_experiment_sessions.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/recorder_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/viewer_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
@@ -82,6 +87,7 @@
         <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/recorder_controller.rb" />
       </list>
     </option>
   </component>
@@ -189,6 +195,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Island_Transcriber" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Island_Transcriber" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -471,7 +495,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/recording.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="64" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="525" />
+        <state line="23" column="64" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="525">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/experiments_controller.rb">
@@ -506,7 +532,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/recording.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="64" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="525" />
+        <state line="23" column="64" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="525">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/framework_and_overrides.css.scss">
@@ -591,11 +619,6 @@
         <state line="14" column="106" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="390" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/recorder_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="30" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/viewer_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="35" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
@@ -643,7 +666,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/recording.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="47" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.5475638" vertical-offset="394" max-vertical-offset="825" />
+        <state line="42" column="47" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.5475638" vertical-offset="394" max-vertical-offset="825">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/experiments_controller.rb">
@@ -728,7 +753,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="331" selection-end="331" vertical-scroll-proportion="0.31322506" vertical-offset="0" max-vertical-offset="1080">
+        <state line="9" column="6" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/recorder_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="47" selection-start="96" selection-end="96" vertical-scroll-proportion="0.034802783" vertical-offset="0" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
