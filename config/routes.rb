@@ -6,6 +6,13 @@ IslandTranscriber::Application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'viewer#index'
 
+  get 'record' => 'recorder#record'
+  post 'record' => 'recorder#record'
+
+
+
+
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
